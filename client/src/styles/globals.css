@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+
+.main {
+  background-image: url("avatar.png");
+  background-repeat: no-repeat;
+  background-position: 190px 290px; /* mueve la imagen 50 píxeles hacia la derecha y 20 píxeles hacia abajo */
+}
+
+.all {
+  background-color: ;
+  margin-left: 500px;
+}
+
+
